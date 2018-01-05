@@ -30,9 +30,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_dependency "typhoeus"
-  spec.add_dependency 'logger'
-  spec.add_dependency  'tempfile'
-  spec.add_dependency  'uri'
-
+  spec.add_dependency "typhoeus", '~> 0'
 end
